@@ -730,9 +730,9 @@ extern s16  D_803C0428;
 extern s16  D_803C042A;
 extern struct053 gWaterAnimState;
 
-extern u64  gRenderMode1;
-extern u64  gRenderMode2;
-extern u64  gGeometryMode;
+extern s64  gRenderMode1;
+extern s64  gRenderMode2;
+extern s64  gGeometryMode;
 extern u16  gWorldPerspNorm; // matrix normalise
 
 extern GfxHelper gVisibleWorldCellQueue[28]; // related to D_80205410
